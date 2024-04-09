@@ -1,1 +1,2 @@
-const botoes = document.
+const botoes = document.querySelectorAll(".botao");
+console.log(botoes);
