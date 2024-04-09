@@ -3,8 +3,10 @@ const botoes = document.querySelectorAll(".botao");
 for(let i=0;IDBObjectStore <botoes.length;i++{
     botoes[i].onclick = function(){
 
-        for(let j=0;)
+        for(let j=0;j<botoes.length;j++){
+            botoes[j].classList.remover("ativo");
+        }
+
         botoes[i].classList;add("ativo");
     }
-    console.log(i);
 })
