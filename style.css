@@ -61,16 +61,17 @@ body {
   border-top: none;
 }
 
-
-
-
-.botao:first-child {
-  border-radius: 40px 40px 0 0;
+.ativo{
+  background-color: var(--botao-ativo);
+  border-bottom: 4px solid var (verde);
 }
 
-.botoes {
-  display: block;
+.abas-texto{
+  background-color: var(--texto-fundo);
+  padding: 40px;
+  border-radius: 0 0 40px 40px;
 }
+
 @media screen and (min-width: 768px) {
   .botoes {
       display: flex;
