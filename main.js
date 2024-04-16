@@ -13,3 +13,7 @@ for(let i=0;IDBObjectStore <botoes.length;i++{
         texto[i].classList.add("ativo");
     }
 }
+
+const cotadore = document.querySelectorAll("contador");
+
+contadores[0],textContent = "Contagem regresiva";
