@@ -52,7 +52,6 @@ function atualizaCronometro(){
     document.getElementById("horas0").textContent = calculaTempo(tempos[0])[1];
     document.getElementById("min0").textContent = calculaTempo(tempos[0])[2];
     
-
     for (let i=0; i<contadores.length;i++){
         
             for (let i=0; i<contadores.length;i++){
@@ -74,4 +73,5 @@ function comecaCronometro(){
     atualizaCronometro();
     setInterval(atualizaCronometro, 1000);
 }
-comecaCronometro();
+
+//comecaCronometro();
